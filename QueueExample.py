@@ -16,10 +16,7 @@ def searchAndDeleteElement(element):
 
     while not isEmpty():
         current_element = retrieveElement()
-        if current_element == element:
-            print("Element", element, "removed from the queue")
-            break
-        else:
+        if current_element != element:
             tempQueue.append(current_element)
 
     while tempQueue:
