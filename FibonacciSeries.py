@@ -11,3 +11,4 @@ def fibonacci_series(n):
 n = int(input("Enter the value of n: "))
 fibonacci_sequence = fibonacci_series(n)
 print("Fibonacci Series:", fibonacci_sequence)
+# The time complexity of this code is linear (O(n))
