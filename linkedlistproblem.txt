@@ -1,0 +1,30 @@
+Problem Statement: Inserting an Employee into a Sorted Employee Database**
+You are tasked with managing an employee database using a sorted linked list. Each employee is represented by a node with the following fields: `employeeID`, `employeeName`, and `employeeSalary`. The linked list is sorted based on the `employeeID` in ascending order.
+Your task is to implement a function `insertEmployee` that takes the following parameters:
+
+- A pointer to the head of the sorted linked list.
+- An `employeeID` (an integer) for the new employee.
+- An `employeeName` (a string) for the new employee.
+- An `employeeSalary` (a floating-point number) for the new employee.
+
+The function should insert the new employee into the sorted linked list while maintaining the ascending order of `employeeID`.
+If an employee with the same `employeeID` already exists in the database, update the `employeeName` and `employeeSalary` for that employee with the new values.
+You should return a pointer to the head of the updated sorted linked list.
+
+Here are some example :
+
+
+
+Input:
+- Sorted Linked List: (1, "Aaa", 50000.0) -> (2, "Bbb", 60000.0)
+- Employee to Insert: (3, "Ccc", 55000.0)
+
+Output:
+- Updated Sorted Linked List: (1, "Aaa", 50000.0) -> (2, "Bbb", 60000.0) -> (3, "Ccc", 55000.0)
+
+Constraints:
+- The `employeeID` is unique and is an integer.
+- The `employeeName` is a string with a maximum length of 100 characters.
+- The `employeeSalary` is a floating-point number with up to two decimal places.
+
+Your task is to implement the `insertEmployee` function to solve this problem.
