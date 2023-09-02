@@ -111,8 +111,8 @@ if __name__ == "__main__":
     print("Initial Linked List:")
     linked_list.print_list()
 
-    # linked_list.remove_by_value(3)
-    # linked_list.remove_by_position(2)
+    linked_list.remove_by_value(3)
+    linked_list.remove_by_position(2)
     linked_list.remove_head()
     linked_list.remove_from_end()
 
