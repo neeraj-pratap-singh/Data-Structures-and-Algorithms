@@ -1,0 +1,2 @@
+# Given an array of integers, write a Python function to rotate the array to the right by a given number of positions. Optimize the algorithm to have a time complexity of O(n)
+#need to discuss with Snehal
